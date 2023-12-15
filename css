@@ -1,1 +1,61 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
 
+        header {
+            text-align: center;
+            background-color: #333;
+            text-decoration-color: #f4f4f4;
+            color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1{
+            color: #f4f4f4;
+        }
+        h2, h3 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        .education, .experience, .Extracurriculars {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .education h2,.Extracurriculars h2, .skills h2, .contact h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .contact p {
+            margin: 8px 0;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    
